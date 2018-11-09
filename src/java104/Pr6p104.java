@@ -11,7 +11,7 @@ public class Pr6p104 {
 
         System.out.println(a);
         System.out.println(b);
-        //hjgjgjkgjh
+        //promiana 1
 
     }
 }
