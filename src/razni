@@ -1,0 +1,40 @@
+====================================
+Код за намиране на просто число
+
+/*
+#include<iostream.h>
+void main ()
+{ int a;
+int b=0;
+cin >> a;
+for(int i=2; i<a; i++)
+if(a%i= =0) b++;
+cout << “Числото “ << a << “ e “;
+if(b= =0) cout << “просто”;
+else cout << “съставно”;
+}
+
+#include<iostream.h>
+void main ()
+{ int a;
+cin >> a;
+int i=2;
+while(a%i !=0) i++;
+cout << “Числото “ << a << “ e “;
+if(i= =a) cout << “просто”;
+else cout << “съставно”;
+}
+
+#include<iostream.h>
+void main ()
+{ int a;
+int b=0;
+cin >> a;
+for(int i=2; i<a; i++)
+if(a%i= =0) {b=1; break;}
+cout << “Числото “ << a << “ e “;
+if(b= =0) cout << “просто”;
+else cout << “съставно”;
+}
+ */
+ ===========================================
