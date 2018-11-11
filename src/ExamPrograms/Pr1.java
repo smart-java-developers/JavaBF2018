@@ -1,3 +1,4 @@
+package ExamPrograms;
 import java.util.Scanner;
 
 public class Pr1 {
