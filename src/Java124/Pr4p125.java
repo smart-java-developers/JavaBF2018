@@ -1,4 +1,4 @@
-package java124;
+package Java124;
 
 public class Pr4p125 {
 

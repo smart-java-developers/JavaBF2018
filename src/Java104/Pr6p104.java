@@ -1,6 +1,6 @@
-package javaBookFrog.java104;
+package Java104;
 
-public class Pr10p104 {
+public class Pr6p104 {
     public static void main(String[] args) {
         int a = 3;
         int b = 5;

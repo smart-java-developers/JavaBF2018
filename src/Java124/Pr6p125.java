@@ -1,4 +1,4 @@
-package java124;
+package Java124;
 
 import java.util.Scanner;
 

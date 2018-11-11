@@ -1,8 +1,8 @@
-package java124;
+package Java124;
 
 import java.util.Scanner;
 
-public class Pr9p125 {
+public class Pr8p125 {
     public static void main(String[] args) {
         //Напишете програма, която проверява дали дадена точка О (x, y) е вътре в окръжността К ((0,0), 5)
         //и е извън правоъгълника ((-1, 1), (5, 5).
@@ -18,8 +18,7 @@ public class Pr9p125 {
         System.out.println(c);
         c = Math.sqrt(c);
         System.out.println(c);
-        System.out.print(c < 5 && !((x1 >= -1 && x1 <= 5) && (y1 >= 1 && y1 <= 5)) ? "Точката е в окръжността и извън правоъгълника" : "Точката не е в окръжността или е в правоъгълника");
+        System.out.print((c < 5) ? "Точката е в окръжността" : "Точката не е в окръжността");
         input.close();
     }
-
 }
