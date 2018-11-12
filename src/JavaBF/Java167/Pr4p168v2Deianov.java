@@ -1,10 +1,10 @@
-// v.1.1 Deianov
+// v2 Deianov
 
 package JavaBF.Java167;
 
 import java.util.Scanner;
 
-public class Pr4p168Deianov {
+public class Pr4p168v2Deianov {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
