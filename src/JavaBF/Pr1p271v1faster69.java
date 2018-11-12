@@ -1,4 +1,4 @@
-package Java271;
+package JavaBF;
 
 import java.util.Scanner;
 public class Pr1p271v1faster69 {
