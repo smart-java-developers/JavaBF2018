@@ -4,7 +4,7 @@ package JavaBF.Java167;
 
 import java.util.Scanner;
 
-public class Pr4p168 {
+public class Pr4p168v1deianov {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Задайте цифра (0-9) : ");
