@@ -2,7 +2,7 @@ package JavaBF;
 
 import java.util.Scanner;
 
-public class pr186_5 {
+public class Pr5p186 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
