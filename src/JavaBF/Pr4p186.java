@@ -6,7 +6,7 @@ package JavaBF;
 
 import java.util.Scanner;
 
-public class pr186_4 {
+public class Pr4p186 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
