@@ -1,7 +1,7 @@
 package Java271;
 
 import java.util.Scanner;
-public class Pr1p271 {
+public class Pr1p271v1faster69 {
     public static double convertFahrenheitToCelsius(
             double TF) {
         double TC = (TF * 1.8 + 32);
