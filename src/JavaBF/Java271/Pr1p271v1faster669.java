@@ -1,5 +1,14 @@
 package JavaBF.Java271;
 
+/* Задача:
+
+Конзолен конвертор: от градуси °C към градуси °F
+Напишете програма, която чете градуси по скалата на Целзий (°C) и ги преобразува до градуси по скалата на
+Фаренхайт (°F). Потърсете в Интернет подходяща формула, с която да извършите изчисленията. Закръглете резултата
+до 2 знака след десетичната точка.
+
+*/
+
 import java.util.Scanner;
 public class Pr1p271v1faster669 {
     public static double convertFahrenheitToCelsius(
@@ -31,7 +40,5 @@ TF = Temperature Fahrenheite
 TC = Temperature Celsius
 
 T = Temperature
-
-update
 
 */
