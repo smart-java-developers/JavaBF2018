@@ -6,11 +6,11 @@ public class Pr2p207 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter lenght of \"Array1\": ");
+        System.out.print("Enter length of \"Array1\": ");
         int length1 = Integer.parseInt(scanner.nextLine());
         int[] array1 = new int[length1];
 
-        System.out.print("Enter lenght of \"Array2\": ");
+        System.out.print("Enter length of \"Array2\": ");
         int length2 = Integer.parseInt(scanner.nextLine());
         int[] array2 = new int[length2];
 
