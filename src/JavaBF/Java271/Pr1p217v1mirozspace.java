@@ -15,6 +15,8 @@ public class Pr1p217v1mirozspace {
         }
         scanner.close();
     }
+    //Метода е private защото не е нужно да е public, поради причината, че самоият метод е
+    //в класа където е и основния мето меин
 
     private static double convertFahrenheitToCelsius(double temperatureFahrenheit) {
         return (temperatureFahrenheit - 32) * 5 / 9;

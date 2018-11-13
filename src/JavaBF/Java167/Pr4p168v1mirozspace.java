@@ -43,5 +43,6 @@ public class Pr4p168v1mirozspace {
                 System.out.println("Некоректна входяща стойност");
                 break;
         }
+        scanner.close();
     }
 }
