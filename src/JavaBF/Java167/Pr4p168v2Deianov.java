@@ -12,7 +12,7 @@ public class Pr4p168v2Deianov {
                 System.out.print("Задайте цифра (0-9) : ");
                 int num = Integer.parseInt(scanner.nextLine());
                 if (num > -1 && num < 10) {
-                    System.out.println((numberToName(num)));
+                    System.out.println(numberToName(num));
                     return;
                 } else {
                     System.out.println("грешен вход!");
