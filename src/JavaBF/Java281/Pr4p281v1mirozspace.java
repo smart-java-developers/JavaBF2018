@@ -29,10 +29,14 @@ public class Pr4p281v1mirozspace {
         int count = 0;
         //Трябва дас е направи корекция на този файл.
         //Махнате неща не ги трийте, а ги коментирайте.
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == num) {
-                count++;
-            }
+//        for (int i = 0; i < array.length; i++) {
+//            if (array[i] == num) {
+//                count++;
+//            }
+//        }
+        // Deianov
+        for (int i: array) {
+            if (i == num) count++;
         }
         System.out.printf("Searched number \"%d\" is contained %d in the array", num, count);
     }
