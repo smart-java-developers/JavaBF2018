@@ -1,7 +1,8 @@
-// Метод за сортиране на масив от int или double (деклариран е с еднакво име, но различени арументи и изход)
-// double[] numbers1 = new numbers[] { 3, 2.5, 1.5 };
-// int[] numbers2 = new int[] { 3, 1, 2 };
-// изпълнение> sortNumbers(numbers1); или sortNumbers(numbers2); или sortNumbers(1, 0, 5, 6, 4, 2, 3);
+// Сортиране на масиви, версия 1, Deianov
+// 1. Използват се два метода с еднакво име, но различни параметри - компилаторът избира кой да използва в зависимост от аргументите, които са му подадени.
+// 2. При сортирането новата подредба се присвоява към масивът.
+// 3. Освен масив, методите могат да сортират и произволен брой подадени им аргументи, като връщат сортиран масив.
+// 4. Метод който използва рекурсия
 
 package JavaBF.Java271;
 
@@ -31,6 +32,23 @@ public class Pr1p278v1Deianov {
                     numbers[j] = tempVar;
                 }
             }
+        }
+        return numbers;
+    }
+
+    public static int[] sortNumbersRecursion(int[] numbers) {
+        boolean flag = false;
+        int temp;
+        for (int i = 0; i < numbers.length - 1; i++) {
+            if (numbers[i] > numbers[i + 1]) {
+                temp = numbers[i];
+                numbers[i] = numbers[i + 1];
+                numbers[i + 1] = temp;
+                flag = true;
+            }
+        }
+        if (flag) {
+            sortNumbersRecursion(numbers);
         }
         return numbers;
     }
