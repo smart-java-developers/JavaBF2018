@@ -6,6 +6,7 @@ public class DigitsV1mirozspace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String numStr = scanner.nextLine();
+        scanner.close();
         String result = stripNonDigits(numStr);
         long resultF = 0;
         long num;
@@ -30,7 +31,7 @@ public class DigitsV1mirozspace {
     }
 
     private static String stripNonDigits(String input) {
-        final StringBuilder sb = new StringBuilder(input.length());
+        StringBuilder sb = new StringBuilder(input.length());
 
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
