@@ -29,19 +29,21 @@ public class CrookedDigitsV1Deianov {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        int rest = 0;
-        int d;
-        int f = 0;
-        boolean flag = false;
+        int n = 0;
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
-            f = c == 46 ? 0 : f + 1;
-            if (f < 301 && c > 47 && c < 58) {
-                d = c - 48;
-                rest = rest + d > 9 ? d : rest + d;
-                flag = true;
+            if (c > 48 && c < 58) {
+                n += c - 48;
             }
         }
-        if (flag && rest < 10) System.out.println(rest);
+        while (n > 9) {
+            int temp = n;
+            n = 0;
+            while (temp > 0) {
+                n += temp % 10;
+                temp = temp / 10;
+            }
+        }
+        System.out.println(n);
     }
 }
