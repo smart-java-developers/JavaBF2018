@@ -2,7 +2,7 @@ package Others1;
 //mirozspace - след доста време занимавка, стана.
 import java.util.Scanner;
 
-public class DigitsV1mirozspace {
+public class CrookedDigitsV1mirozspace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String numStr = scanner.nextLine();
@@ -11,10 +11,8 @@ public class DigitsV1mirozspace {
         long resultF = 0;
         long num;
         long num2;
-
         num = Long.parseLong(result);
         final long count = Long.toString(num).length();
-
         while (true) {
             for (int i = 0; i < count; i++) {
                 num2 = num % 10;
@@ -29,7 +27,6 @@ public class DigitsV1mirozspace {
             resultF = 0;
         }
     }
-
     private static String cleanSymbol(String input) {
         StringBuilder sb = new StringBuilder(input.length());
 
