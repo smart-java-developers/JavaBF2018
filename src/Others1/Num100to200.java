@@ -12,7 +12,7 @@ public class Num100to200 {
 
         int number = Integer.parseInt(scanner.nextLine());
 
-        /* NEW CODE - REPLACEMENT OF THE IF-THEN-ELSE STATEMENT
+        /* NEW CODE - REPLACEMENT OF THE IF-ELSE IF-ELSE STATEMENT
                 WITH CHAINED TERNARY OPERATOR
          */
 
