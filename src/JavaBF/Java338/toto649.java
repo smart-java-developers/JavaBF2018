@@ -11,6 +11,11 @@ public class toto649 {
         String text = "";
         Random rand = new Random();
 
+        if (count == 0){
+            System.out.println("Не е направено нито едно теглене!");
+            return;
+        }
+
         for (int i = 0; i < count; i++) {
             for (int number = 1; number <= 6; number++) {
                 int randomNumber = rand.nextInt(49) + 1;
