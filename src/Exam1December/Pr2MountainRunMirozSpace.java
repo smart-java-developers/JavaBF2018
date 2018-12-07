@@ -2,7 +2,7 @@ package Exam1December;
 
 import java.util.Scanner;
 
-public class Pr2MountainRun {
+public class Pr2MountainRunMirozSpace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

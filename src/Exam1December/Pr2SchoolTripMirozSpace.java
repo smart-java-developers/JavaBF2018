@@ -2,7 +2,7 @@ package Exam1December;
 
 import java.util.Scanner;
 
-public class Pr2SchoolTrip {
+public class Pr2SchoolTripMirozSpace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days = Integer.parseInt(scanner.nextLine());
