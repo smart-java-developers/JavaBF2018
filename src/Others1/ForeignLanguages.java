@@ -6,18 +6,12 @@ public class ForeignLanguages {
         Scanner scanner = new Scanner(System.in);
 
         String country = scanner.nextLine();
-        switch (country) {
-            case "England":
-            case "USA":
-                System.out.println("English");
-                break;
-            case "Spain":
-            case "Argentina":
-            case "Mexico":
-                System.out.println("Spanish");
-                break;
-            default:
-                System.out.println("unknown");
+        if ("England".equals(country) || "USA".equals(country)) {
+            System.out.println("English");
+        } else if ("Spain".equals(country) || "Argentina".equals(country) || "Mexico".equals(country)) {
+            System.out.println("Spanish");
+        } else {
+            System.out.println("unknown");
         }
     }
 }
