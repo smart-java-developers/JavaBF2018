@@ -2,7 +2,7 @@ package Exam1December;
 
 import java.util.Scanner;
 
-public class Pr1SchoolSupplies {
+public class Pr1SchoolSuppliesMirozSpace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

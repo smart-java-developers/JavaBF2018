@@ -2,7 +2,7 @@ package Exam1December;
 
 import java.util.Scanner;
 
-public class Pr1TrekkingEquipment {
+public class Pr1TrekkingEquipmentMirozSpace {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int mountaineers = Integer.parseInt(scanner.nextLine());
