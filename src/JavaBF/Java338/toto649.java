@@ -11,7 +11,7 @@ public class toto649 {
         String text = "";
         Random rand = new Random();
 
-        if (count == 0){
+        if (count == 0) {
             System.out.println("Не е направено нито едно теглене!");
             return;
         }
@@ -25,7 +25,7 @@ public class toto649 {
             if (i == (count - 1)) {
                 System.out.print("Това беше последното теглене!");
                 System.exit(0);
-            }else{
+            } else {
                 System.out.print("Ако искате да продължите изпълнението на програмата натиснете \"Y\" :");
                 text = scanner.nextLine();
             }
