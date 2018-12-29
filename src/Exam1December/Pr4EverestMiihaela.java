@@ -16,7 +16,8 @@ public class Pr4EverestMiihaela {
                 deys++;
             }
             startMetars += meters;
-            if (deys >= 5) {
+            //махнал съм =
+            if (deys > 5) {
                 break;
             }
             input = scanner.nextLine();
