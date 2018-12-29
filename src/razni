@@ -10,7 +10,7 @@ cin >> a;
 for(int i=2; i<a; i++)
 if(a%i= =0) b++;
 cout << “Числото “ << a << “ e “;
-if(b= =0) cout << “просто”;
+if(b == 0) cout << “просто”;
 else cout << “съставно”;
 }
 

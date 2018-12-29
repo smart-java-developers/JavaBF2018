@@ -8,7 +8,7 @@ public class Pr6ChristmasDecorationKiller95 {
         double budjet = Integer.parseInt(scanner.nextLine());
         double price;
         String nameObject = "";
-        //moje da promenish uslovieto na "true"
+
         while (!nameObject.equals("Stop")) {
             nameObject = scanner.nextLine();
             if (nameObject.equals("Stop")) {
