@@ -38,7 +38,6 @@ public class Main {
 
         }
 
-        day = day + dayInMonth;
     }
 }
 
