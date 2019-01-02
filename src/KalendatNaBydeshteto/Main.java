@@ -1,4 +1,13 @@
 package KalendatNaBydeshteto;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    }
+}
+
 /*
 Вход:
 - ден
@@ -13,5 +22,3 @@ package KalendatNaBydeshteto;
 
 Да не се ползва календара на компютъра, а да се измисли алгоритъм за преместването на дните според годината!
  */
-public class Main {
-}
