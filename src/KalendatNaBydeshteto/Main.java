@@ -10,31 +10,35 @@ public class Main {
         int year = Integer.parseInt(scanner.nextLine());
         String dayStr = scanner.nextLine();
 
+        int dayInMonth = 0;
+
         if (month == 1) {
 
-        } else if (month == 2){
+        } else if (month == 2) {
 
-        } else if (month == 3){
+        } else if (month == 3) {
 
-        }else if (month == 4){
+        } else if (month == 4) {
 
-        }else if (month == 5){
+        } else if (month == 5) {
 
-        }else if (month == 6){
+        } else if (month == 6) {
 
-        }else if (month == 7){
+        } else if (month == 7) {
 
-        }else if (month == 8){
+        } else if (month == 8) {
 
-        }else if (month == 9){
+        } else if (month == 9) {
 
-        }else if (month == 10){
+        } else if (month == 10) {
 
-        }else if (month == 11){
+        } else if (month == 11) {
 
-        }else if (month == 12){
+        } else if (month == 12) {
 
         }
+
+        day = day + dayInMonth;
     }
 }
 
