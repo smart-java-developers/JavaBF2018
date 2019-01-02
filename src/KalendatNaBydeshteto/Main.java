@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int day = Integer.parseInt(scanner.nextLine());
+        int month = Integer.parseInt(scanner.nextLine());
+        int year = Integer.parseInt(scanner.nextLine());
+        String dayStr = scanner.nextLine();
     }
 }
 
