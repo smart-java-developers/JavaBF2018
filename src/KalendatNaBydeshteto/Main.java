@@ -7,58 +7,55 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int day = Integer.parseInt(scanner.nextLine());
         int month = Integer.parseInt(scanner.nextLine());
-        //int year = Integer.parseInt(scanner.nextLine());
-        //String dayStr = scanner.nextLine();
         int dayPlus = Integer.parseInt(scanner.nextLine());
-        //String
-        //===mirozspace
-        //За сега идеята ми е ако въведем примерно 20.02 - да изчислим всички дни от тази дата и да добавим новите.
-        //Тоест при месец 2 имаме 31 дена от Януари + тези от датата - тоест 51 дена.
-        //На подобен принцип превръщаме обратно дните в месец и дни
-        //За сега е това, като идея, но нещо не работи точно и го мисля в момента.
-        int allDay = 0;
 
-        if (month == 1) {
-            allDay = 0;
-        } else if (month == 2) {
-            allDay = 31;
-        } else if (month == 3) {
-            allDay = 59;
-        } else if (month == 4) {
-            allDay = 90;
-        } else if (month == 5) {
-            allDay = 120;
-        } else if (month == 6) {
-            allDay = 151;
-        } else if (month == 7) {
-            allDay = 181;
-        } else if (month == 8) {
-            allDay = 212;
-        } else if (month == 9) {
-            allDay = 243;
-        } else if (month == 10) {
-            allDay = 273;
-        } else if (month == 11) {
-            allDay = 304;
-        } else if (month == 12) {
-            allDay = 335;
-        }
-        allDay = allDay + day;
-        allDay = allDay + dayPlus;
+        int allDay = day + dayFromLastMonths(month)+dayPlus;
+        System.out.println(allDay);//Vsichki dni (Plus dobavenite). :)
 
-        if (allDay >= 0 && allDay <= 31) {
-            month = 1;
-            day = 31 - allDay;
-        } else if (allDay <= 59) {
-            month = 2;
-            allDay = allDay - 31;
-            day = 28 - allDay;
-        } else if (allDay <= 90) {
-            month = 3;
-            day = 90 - allDay;
+//        int allDay = allDay + day;
+//        allDay = allDay + dayPlus;
+//
+//        if (allDay >= 0 && allDay <= 31) {
+//            month = 1;
+//            day = 31 - allDay;
+//        } else if (allDay <= 59) {
+//            month = 2;
+//            allDay = allDay - 31;
+//            day = 28 - allDay;
+//        } else if (allDay <= 90) {
+//            month = 3;
+//            day = 90 - allDay;
+//        }
+//        System.out.println(day + "." + month);
+    }
+
+    private static int dayFromLastMonths(int dayFLM) {
+        if (dayFLM == 1) {
+            dayFLM = 0;
+        } else if (dayFLM == 2) {
+            dayFLM = 31;
+        } else if (dayFLM == 3) {
+            dayFLM = 59;
+        } else if (dayFLM == 4) {
+            dayFLM = 90;
+        } else if (dayFLM == 5) {
+            dayFLM = 120;
+        } else if (dayFLM == 6) {
+            dayFLM = 151;
+        } else if (dayFLM == 7) {
+            dayFLM = 181;
+        } else if (dayFLM == 8) {
+            dayFLM = 212;
+        } else if (dayFLM == 9) {
+            dayFLM = 243;
+        } else if (dayFLM == 10) {
+            dayFLM = 273;
+        } else if (dayFLM == 11) {
+            dayFLM = 304;
+        } else if (dayFLM == 12) {
+            dayFLM = 335;
         }
-        System.out.println(day + "." + month);
-        //===
+        return dayFLM;
     }
 }
 
