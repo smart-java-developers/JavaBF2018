@@ -12,21 +12,8 @@ public class Main {
         int allDay = day + dayFromLastMonths(month)+dayPlus;
         System.out.println(allDay);//Vsichki dni (Plus dobavenite). :)
 
-//        int allDay = allDay + day;
-//        allDay = allDay + dayPlus;
-//
-//        if (allDay >= 0 && allDay <= 31) {
-//            month = 1;
-//            day = 31 - allDay;
-//        } else if (allDay <= 59) {
-//            month = 2;
-//            allDay = allDay - 31;
-//            day = 28 - allDay;
-//        } else if (allDay <= 90) {
-//            month = 3;
-//            day = 90 - allDay;
-//        }
-//        System.out.println(day + "." + month);
+        //davaite dopisvaite ideiata :)
+
     }
 
     private static int dayFromLastMonths(int dayFLM) {
