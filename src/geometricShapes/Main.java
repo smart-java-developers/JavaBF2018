@@ -49,13 +49,28 @@ public class Main {
                 }
                 //Rectangle se pravi ot mirozspace
             } else if (shape.equalsIgnoreCase("Rectangle")) {
-
                 System.out.print("What are you going to calculate (Input Area or Perimeter)? : ");
                 formulaForFigure = scanner.nextLine();
+                System.out.println("RECTANGLE");
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
-                    // da se dopishe
+                    System.out.print("Input side A: ");
+                    sideAA = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side B: ");
+                    sideBB = Double.parseDouble(scanner.nextLine());
+                    System.out.println(sideAA * sideBB);
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
-                    // da se dopishe
+                    System.out.print("Input side A: ");
+                    sideAA = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side B: ");
+                    sideBB = Double.parseDouble(scanner.nextLine());
+                    System.out.println(2 * (sideAA * sideBB));
+                }else {
+                    System.out.println("Error!");
+                }
+                System.out.println("Do you want to see formulas for Area or Perimeter");
+                String yesNo = scanner.nextLine();
+                if (yesNo.equalsIgnoreCase("Yes")) {
+                    System.out.printf("Area - > area = a * b%nPerimeter -> perimeter = 2 * (a + b)%n");
                 }
                 //end of code === mirozspace
             } else if (shape.equalsIgnoreCase("Trapez")) {
