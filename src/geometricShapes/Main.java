@@ -65,7 +65,7 @@ public class Main {
                     System.out.print("Input side B: ");
                     sideBB = Double.parseDouble(scanner.nextLine());
                     System.out.println(2 * (sideAA * sideBB));
-                }else {
+                } else {
                     System.out.println("Error!");
                 }
                 System.out.println("Do you want to see formulas for Area or Perimeter");
@@ -76,13 +76,29 @@ public class Main {
                 //end of code === mirozspace
 
                 // Trapezoid will be made by D.Pavlova
-            } else if (shape.equalsIgnoreCase("Trapezoid")) {
 
+            } else if (shape.equalsIgnoreCase("Trapezoid")) {
+                System.out.print("What would you like to calculate - please type Area or Perimeter: ");
                 formulaForFigure = scanner.nextLine();
+                System.out.print("TRAPEZOID");
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
-                    // da se dopishe
+                    System.out.print("Input side A: ");
+                    sideAA = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side B: ");
+                    sideBB = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side H: ");
+                    double h = Double.parseDouble(scanner.nextLine());
+                    System.out.println((sideAA + sideBB) * h / 2);
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
-                    // da se dopishe
+                    System.out.print("Input side A: ");
+                    sideAA = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side B: ");
+                    sideBB = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side C: ");
+                    double sideC = Double.parseDouble(scanner.nextLine());
+                    System.out.print("Input side D: ");
+                    double sideD = Double.parseDouble(scanner.nextLine());
+                    System.out.println(sideAA + sideBB + sideC + sideD);
                 }
 
                 // End of code by D.Pavlova
