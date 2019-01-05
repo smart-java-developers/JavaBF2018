@@ -75,12 +75,12 @@ public class Main {
                 }
                 //end of code === mirozspace
 
-                // Trapezoid will be made by D.Pavlova
+                // Trapezoid by D.Pavlova
 
             } else if (shape.equalsIgnoreCase("Trapezoid")) {
                 System.out.print("What would you like to calculate - please type Area or Perimeter: ");
                 formulaForFigure = scanner.nextLine();
-                System.out.print("TRAPEZOID");
+                System.out.println("TRAPEZOID");
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     System.out.print("Input side A: ");
                     sideAA = Double.parseDouble(scanner.nextLine());
@@ -88,7 +88,8 @@ public class Main {
                     sideBB = Double.parseDouble(scanner.nextLine());
                     System.out.print("Input side H: ");
                     double h = Double.parseDouble(scanner.nextLine());
-                    System.out.println((sideAA + sideBB) * h / 2);
+                    System.out.println("Calculation is made by the following formula: " + "(A+B)" + "*H" + "/2");
+                    System.out.println("Result: " + ((sideAA + sideBB) * h / 2));
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
                     System.out.print("Input side A: ");
                     sideAA = Double.parseDouble(scanner.nextLine());
@@ -98,10 +99,14 @@ public class Main {
                     double sideC = Double.parseDouble(scanner.nextLine());
                     System.out.print("Input side D: ");
                     double sideD = Double.parseDouble(scanner.nextLine());
-                    System.out.println(sideAA + sideBB + sideC + sideD);
+                    System.out.println("Calculation is made by the following formula: " + "A+B+C+D");
+                    System.out.println("Result: " + (sideAA + sideBB + sideC + sideD));
+                } else {
+                    System.out.println("Error!");
                 }
 
                 // End of code by D.Pavlova
+
             } else if (shape.equalsIgnoreCase("Triangle")) {
 
                 formulaForFigure = scanner.nextLine();
