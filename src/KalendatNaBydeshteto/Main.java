@@ -9,6 +9,7 @@ public class Main {
         int month = Integer.parseInt(scanner.nextLine());
         int dayPlus = Integer.parseInt(scanner.nextLine());
 
+        final int nowYears = 2019;
         int allDay = day + dayFromLastMonths(month)+dayPlus;
         System.out.println(allDay);//Vsichki dni (Plus dobavenite). :)
 
