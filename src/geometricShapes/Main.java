@@ -59,6 +59,8 @@ public class Main {
                     // da se dopishe
                 }
                 //end of code === mirozspace
+
+                // Trapezoid will be made by D.Pavlova
             } else if (shape.equalsIgnoreCase("Trapezoid")) {
 
                 formulaForFigure = scanner.nextLine();
@@ -67,6 +69,8 @@ public class Main {
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
                     // da se dopishe
                 }
+
+                // End of code by D.Pavlova
             } else if (shape.equalsIgnoreCase("Triangle")) {
 
                 formulaForFigure = scanner.nextLine();
