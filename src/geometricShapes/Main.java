@@ -7,6 +7,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+
         double sideAA, sideBB;
         String shape, code, formulaForFigure, command;
         command = "";
@@ -58,7 +59,7 @@ public class Main {
                     // da se dopishe
                 }
                 //end of code === mirozspace
-            } else if (shape.equalsIgnoreCase("Trapez")) {
+            } else if (shape.equalsIgnoreCase("Trapezoid")) {
 
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
@@ -76,7 +77,7 @@ public class Main {
                 }
             }
 
-            System.out.print("Intput Yes ot No to decide for new calculate: ");
+            System.out.print("Input Yes or No to decide for new calculation: ");
             command = scanner.nextLine();
             if (command.equalsIgnoreCase("No")) {
                 break;
