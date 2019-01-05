@@ -76,7 +76,7 @@ public class Main {
                 }
             }
 
-            System.out.print("Intput Yes ot No to decide for ne calculate: ");
+            System.out.print("Intput Yes ot No to decide for new calculate: ");
             command = scanner.nextLine();
             if (command.equalsIgnoreCase("No")) {
                 break;
