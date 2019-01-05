@@ -16,7 +16,7 @@ public class Main {
             shape = scanner.nextLine();
 
             if (shape.equalsIgnoreCase("Circle")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
@@ -24,7 +24,7 @@ public class Main {
                     // da se dopishe
                 }
             } else if (shape.equalsIgnoreCase("Ellipse")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
@@ -32,7 +32,7 @@ public class Main {
                     // da se dopishe
                 }
             } else if (shape.equalsIgnoreCase("Hexagon")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
@@ -40,23 +40,26 @@ public class Main {
                     // da se dopishe
                 }
             } else if (shape.equalsIgnoreCase("Pentagon")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
                     // da se dopishe
                 }
+                //Rectangle se pravi ot mirozspace
             } else if (shape.equalsIgnoreCase("Rectangle")) {
-                printInformationChoiceShape();
+
+                System.out.print("What are you going to calculate (Input Area or Perimeter)? : ");
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
                 } else if (formulaForFigure.equalsIgnoreCase("Perimeter")) {
                     // da se dopishe
                 }
+                //end of code === mirozspace
             } else if (shape.equalsIgnoreCase("Trapez")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
@@ -64,7 +67,7 @@ public class Main {
                     // da se dopishe
                 }
             } else if (shape.equalsIgnoreCase("Triangle")) {
-                printInformationChoiceShape();
+
                 formulaForFigure = scanner.nextLine();
                 if (formulaForFigure.equalsIgnoreCase("Area")) {
                     // da se dopishe
@@ -82,10 +85,5 @@ public class Main {
             }
         }
         System.out.println("Good Bye!");
-    }
-    private static void printInformationChoiceShape() {
-        System.out.println("What do you want to calculate?");
-        System.out.println("Area or Perimeter?");
-        System.out.print("Enter your choice (code of shape): ");
     }
 }
